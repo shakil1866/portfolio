@@ -973,9 +973,34 @@ margin-top: 1.4rem;
 
 /*=============================== Breakpoints ========================  */
 /* for large devices */
+@media screen and (max-width:1200px) {
+  :root {
+    --fs-h1: 2.75rem;
+    --fs-h2: 1.75rem;
+    --fs-lg: 1rem;
+    --fs-base: 0.938rem;
+    --fs-sm: 0.813rem;
+    --fs-xs: 0.687rem;
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+
+  .home__container{
+    grid-template-columns: 5fr 7fr;
+  }
+
+  .skills__container,
+  .services__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap:1.875rem ;
+  }
+}
 @media screen and (max-width: 992px) {
   .container {
-    max-width: 720px;
+    max-width: 980px;
+
   }
   
   .nav__menu{
