@@ -1025,6 +1025,7 @@ margin-top: 1.4rem;
     color: var(--text-color);
     opacity: 1;
   }
+}
 /* @media screen and (max-width:1200px) {
   :root {
     --fs-h1: 2.75rem;
