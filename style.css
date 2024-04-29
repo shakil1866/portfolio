@@ -973,7 +973,7 @@ margin-top: 1.4rem;
 
 /*=============================== Breakpoints ========================  */
 /* for large devices */
-@media screen and (max-width:1200px) {
+/* @media screen and (max-width:1200px) {
   :root {
     --fs-h1: 2.75rem;
     --fs-h2: 1.75rem;
@@ -1090,10 +1090,10 @@ padding-bottom: 6.25rem;
   .contact__container {
     grid-template-columns: 5fr 7fr;
   }
-}
+} */
 
 /* for medium devices */
-@media screen and (max-width: 768px ) {
+/* @media screen and (max-width: 768px ) {
 .container {
   max-width: 540px;
 }
@@ -1149,10 +1149,10 @@ padding-bottom: 6.25rem;
     height: 1.125rem;
 }
 
-}
+} */
 
 /* for small devices */
-@media screen and (max-width: 350px) {
+/* @media screen and (max-width: 350px) {
 :root {
   --fs-h1: 2rem
 }
@@ -1172,4 +1172,4 @@ padding-bottom: 6.25rem;
 .home__social-link {
   font-size: 1.3rem;
 }
-}
+} */
