@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Noto+Serif:ital,wght@1,300&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+:root {
+  --primary: #C75142 !important ;
+  --bgg : #25262F !important;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar */
+
+.navbar{
+    font-family: "Vollkorn", serif;
+    background-color: var(--bgg);
+}
+.nav-item{
+    padding-left: 30px;
+}
+
+.nav-link {
+    font-weight: 600;
+    
+}
+
+.nav-item .btn{
+    color: #fff;
+    border: 1px solid #C75142;
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    transition: all 0.3s ease-out 0s !important;
+    color: #C75142 !important;
+} 
+
+.nav-item .btn:hover{
+    color: #fff;
+    transition: all 0.3s ease-out 0s !important;
+    background-color: #C75142;
+    border: none;
+    outline-color: none;
+    
+}
+
+.offcanvas{
+    background-color: black ;
+}
